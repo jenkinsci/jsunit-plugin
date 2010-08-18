@@ -42,17 +42,17 @@ public class JSUnitInputMetric extends InputMetricXSL {
 
     @Override
     public String getToolVersion() {
-        return "1.1";
+        return "2.2";
     }
 
     @Override
     public String getXslName() {
-        return "jsunit-1.0-to-junit-1.0.xsl";
+        return "jsunit-2.2-to-junit-1.0.xsl";
     }
 
     @Override
     public String getInputXsd() {
-        return "jsunit-1.0.xsd";
+        return "jsunit-2.2.xsd";
     }
 
     @Override
