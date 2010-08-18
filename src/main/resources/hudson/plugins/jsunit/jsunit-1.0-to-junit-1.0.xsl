@@ -11,10 +11,9 @@
             <xsl:variable name="numberOfTests" select="count(descendant::testCaseResult)" />
             <xsl:variable name="numberOfErrors" select="count(descendant::error)" />
             <xsl:variable name="numberOfFailures" select="count(descendant::failure)" />
-            <xsl:variable name="hostName" select="properties/property[@name = 'remoteAddress']/@value" />
             <xsl:variable name="testSuiteName" select="properties/property[@name = 'testPage']/@value" />
             <xsl:variable name="totalTime" select='format-number(sum(descendant::testCaseResult/@time), "#.###")' />
-            <testsuite errors="{$numberOfErrors}" failures="{$numberOfFailures}" hostname="{$hostName}" name="{$browser}.{$testSuiteName}" tests="{$numberOfTests}" time="{$totalTime}">
+            <testsuite errors="{$numberOfErrors}" failures="{$numberOfFailures}" name="{$browser}.{$testSuiteName}" tests="{$numberOfTests}" time="{$totalTime}">
                 <xsl:copy-of select="properties" /> <!-- copy all properties -->
                 <xsl:for-each select="testCaseResults/testCaseResult">
                     <xsl:variable name="classname">
