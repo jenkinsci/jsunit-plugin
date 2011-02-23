@@ -43,7 +43,7 @@ public class JSUnitType extends XUnitType {
      * @return an new hudson object
      */
     public Object readResolve() {
-        return new JSUnitPluginType(this.getPattern(), this.isFaildedIfNotNew(), this.isDeleteJUnitFiles());
+        return new JSUnitPluginType(this.getPattern(), this.isFaildedIfNotNew(), this.isDeleteJUnitFiles(), true);
     }
 
 }

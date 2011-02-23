@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2010                          *
+ * Copyright (c) 2010                                                           *
  * Author : Gregory Boissinot, Rick Oosterholt                                  *
  *                                                                              *
  * Permission is hereby granted, free of charge, to any person obtaining a copy *
@@ -22,17 +22,17 @@
  *******************************************************************************/
 package hudson.plugins.jsunit;
 
-import com.thalesgroup.dtkit.metrics.hudson.api.type.TestType;
 import com.thalesgroup.dtkit.metrics.hudson.api.descriptor.TestTypeDescriptor;
-import org.kohsuke.stapler.DataBoundConstructor;
+import com.thalesgroup.dtkit.metrics.hudson.api.type.TestType;
 import hudson.Extension;
+import org.kohsuke.stapler.DataBoundConstructor;
 
 
 public class JSUnitPluginType extends TestType {
 
     @DataBoundConstructor
-    public JSUnitPluginType(String pattern, boolean faildedIfNotNew, boolean deleteOutputFiles) {
-        super(pattern, faildedIfNotNew, deleteOutputFiles);
+    public JSUnitPluginType(String pattern, boolean faildedIfNotNew, boolean deleteOutputFiles, boolean stopProcessingIfError) {
+        super(pattern, faildedIfNotNew, deleteOutputFiles, stopProcessingIfError);
     }
 
     public TestTypeDescriptor<?> getDescriptor() {

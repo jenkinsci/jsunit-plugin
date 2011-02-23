@@ -1,5 +1,5 @@
 /*******************************************************************************
- * Copyright (c) 2010                          *
+ * Copyright (c) 2010-2011                                                      *
  * Author : Gregory Boissinot, Rick Oosterholt                                  *
  *                                                                              *
  * Permission is hereby granted, free of charge, to any person obtaining a copy *
@@ -51,8 +51,8 @@ public class JSUnitInputMetric extends InputMetricXSL {
     }
 
     @Override
-    public String getInputXsd() {
-        return "jsunit-2.2.xsd";
+    public String[] getInputXsdNameList() {
+        return new String[]{"jsunit-2.2.xsd"};
     }
 
     @Override
