@@ -1,0 +1,289 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+   <testsuite errors="0" failures="0" name="Firefox.jsUnitTestSuite.html" tests="90" time=".069">
+      <properties>
+         <property name="jsUnitVersion" value="2.2" />
+
+         <property name="userAgent" value="Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.12) Gecko/20101026 Firefox/3.6.12" />
+
+         <property name="remoteAddress" value="127.0.0.1" />
+
+         <property name="url" value="http://127.0.0.1:8081/jsunit/tests/jsUnitTestSuite.html" />
+
+         <property name="testPage" value="jsUnitTestSuite.html" />
+
+         <property name="userProperty" value="" />
+      </properties>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertEqualsIgnoringOrder" time="0.002">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertContains" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertRoughlyEquals" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertHashEquals" time="0.001">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertHTMLEquals" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertEvaluatesToFalse" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertEvaluatesToTrue" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertObjectEquals_tooManyEntriesInActual" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertObjectEquals_differentTypes" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertObjectEquals_numbers" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertObjectEquals_strings" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertObjectEquals_regularExpression" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertObjectEquals_date" time="0.001">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertObjectEquals_hash" time="0.002">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertArrayEquals" time="0.001">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testInvalidArgumentType" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testInvalidCommentArgumentType" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testTooManyArguments" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testTooFewArguments" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testFail" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertNotNaN" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertNaN" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertNotUndefined" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertUndefined" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertNotNull" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertNull" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertNotEquals" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertEquals" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertFalse" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssertTrue" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAssertionTests" name="testAssert" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitFrameworkUtilityTests" name="testDisplayStringForArray" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitFrameworkUtilityTests" name="testDisplayStringForUndefined" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitFrameworkUtilityTests" name="testDisplayStringForNull" time="0.001">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitFrameworkUtilityTests" name="testDisplayStringForString" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitFrameworkUtilityTests" name="testDisplayStringForNumber" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitFrameworkUtilityTests" name="testTraceLevel" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitFrameworkUtilityTests" name="testTracingWithUndefinedValue" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitFrameworkUtilityTests" name="testTracing" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitFrameworkUtilityTests" name="testJsUnitTestSuiteClass" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitOnLoadTests" name="testOnLoadFired" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitRestoredHTMLDivTests" name="testOriginalHTMLPresent2" time="0.001">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitRestoredHTMLDivTests" name="testAlterOriginalHTML" time="0.001">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitRestoredHTMLDivTests" name="testOriginalHTMLPresent1" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitSetUpTearDownTests" name="testEmpty3" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitSetUpTearDownTests" name="testTearDown" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitSetUpTearDownTests" name="testEmpty2" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitSetUpTearDownTests" name="testSetUp" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitSetUpTearDownTests" name="testEmpty1" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestManagerTests" name="testDetermineBaseUrl" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestManagerTests" name="testGetSubmitUrl_WhenSubmitResultsIsUrl" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestManagerTests" name="testGetSubmitUrl_WhenSubmitResultsTrue" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestManagerTests" name="testGetSubmitUrl_WhenResultUrlNotSpecifiedAndFileProtocol" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestManagerTests" name="testGetSubmitUrl_WhenResultUrlNotSpecified" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestManagerTests" name="testGetFunctionNamesFromRuntimeObject" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestManagerTests" name="testIsTestFunction" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestManagerTests" name="testGetTestFunctionNamesFromFrameProperties" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestManagerTests" name="testGetTestFunctionNamesUsingPlainTextSearch" time="0.001">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitParamsTests" name="testConstructTestParams_BooleansHaveNoValueWritten" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitParamsTests" name="testConstructTestParams_ValuesAreEscaped" time="0.001">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitParamsTests" name="testConstructTestParams_IgnoreCertainKeys" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitParamsTests" name="testQueryStringParsing_MagicHexEscapedCharactersAreIgnored" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitParamsTests" name="testQueryStringParsing_HexEscapedCharactersAreUnescaped" time="0.053">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitParamsTests" name="testQueryStringParsing_InitialPathIsRemoved" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitParamsTests" name="testQueryStringParsing_CaseIsIgnored" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitParamsTests" name="testQueryStringParsing_Basic" time="0.001">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestSetUpPages" name="testDocumentGetElementsByTagName" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestSuiteTests" name="testSpecifyTestsInConstructor" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestSuiteTests" name="testSuiteWithSubsuites" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitTestSuiteTests" name="testSimpleSuite" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitUtilityTests" name="testTrueTypeOf" time="0.001">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitUtilityTests" name="testPushAndPop" time="0.001">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitUtilityTests" name="testIsBlank" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitUtilityTests" name="testTrim" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.TestPageTest" name="testGetStatus" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.UiManagerTest" name="testProblemDetailMessageFor_WithAssertionFailure" time="0.001">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.UiManagerTest" name="testProblemDetailMessageFor_WithException" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitMockTimeoutTest" name="testInterval" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitMockTimeoutTest" name="testBigTickWithOutOfOrderTimeouts" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitMockTimeoutTest" name="testComplicatedBigTickWithOutOfOrderTimeouts" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitMockTimeoutTest" name="testTimeoutWithDelayedRecursion" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitMockTimeoutTest" name="testTimeoutWithRecursionWithinTick" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitMockTimeoutTest" name="testTimeoutWithRecursion" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitMockTimeoutTest" name="testTimeoutWithinTimeout" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitMockTimeoutTest" name="testTimeoutsCanBeCleared" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitMockTimeoutTest" name="testClockOutOfOrder" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitMockTimeoutTest" name="testSimpleClock" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAjaxTest" name="testSendRequest" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAjaxTest" name="testSetRequestHeader" time="0.0">
+      </testcase>
+
+      <testcase classname="JsUnit.Firefox.jsUnitAjaxTest" name="testOpenRequest" time="0.0">
+      </testcase>
+   </testsuite>
+</testsuites>
+

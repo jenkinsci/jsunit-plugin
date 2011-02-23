@@ -1,0 +1,226 @@
+<distributedTestRunResult type="SUCCESS">
+   <testRunResult type="SUCCESS" url="http://10.34.13.151:8080/jsunit">
+      <platform>
+         <name>Windows</name>
+
+         <logoPath>images/logo_windows.gif</logoPath>
+      </platform>
+
+      <properties>
+         <property name="os" value="Windows XP - x86" />
+
+         <property name="ipAddress" value="127.0.0.1" />
+
+         <property name="hostname" value="localhost" />
+      </properties>
+
+      <browserResult type="SUCCESS" id="1291452964422" time="2.819">
+         <browser>
+            <fullFileName>D:\Program Files\Mozilla Firefox\firefox.exe</fullFileName>
+
+            <id>0</id>
+
+            <displayName>Firefox</displayName>
+
+            <logoPath>images/logo_firefox.gif</logoPath>
+         </browser>
+
+         <properties>
+            <property name="jsUnitVersion" value="2.2" />
+
+            <property name="userAgent" value="Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.9.2.12) Gecko/20101026 Firefox/3.6.12" />
+
+            <property name="remoteAddress" value="127.0.0.1" />
+
+            <property name="url" value="http://127.0.0.1:8081/jsunit/tests/jsUnitTestSuite.html" />
+
+            <property name="testPage" value="jsUnitTestSuite.html" />
+
+            <property name="userProperty" value="" />
+         </properties>
+
+         <testCaseResults>
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertEqualsIgnoringOrder" time="0.002" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertContains" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertRoughlyEquals" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertHashEquals" time="0.001" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertHTMLEquals" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertEvaluatesToFalse" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertEvaluatesToTrue" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertObjectEquals_tooManyEntriesInActual" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertObjectEquals_differentTypes" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertObjectEquals_numbers" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertObjectEquals_strings" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertObjectEquals_regularExpression" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertObjectEquals_date" time="0.001" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertObjectEquals_hash" time="0.002" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertArrayEquals" time="0.001" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testInvalidArgumentType" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testInvalidCommentArgumentType" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testTooManyArguments" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testTooFewArguments" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testFail" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertNotNaN" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertNaN" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertNotUndefined" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertUndefined" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertNotNull" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertNull" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertNotEquals" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertEquals" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertFalse" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssertTrue" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAssertionTests.html:testAssert" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitFrameworkUtilityTests.html:testDisplayStringForArray" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitFrameworkUtilityTests.html:testDisplayStringForUndefined" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitFrameworkUtilityTests.html:testDisplayStringForNull" time="0.001" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitFrameworkUtilityTests.html:testDisplayStringForString" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitFrameworkUtilityTests.html:testDisplayStringForNumber" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitFrameworkUtilityTests.html:testTraceLevel" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitFrameworkUtilityTests.html:testTracingWithUndefinedValue" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitFrameworkUtilityTests.html:testTracing" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitFrameworkUtilityTests.html:testJsUnitTestSuiteClass" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitOnLoadTests.html:testOnLoadFired" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitRestoredHTMLDivTests.html:testOriginalHTMLPresent2" time="0.001" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitRestoredHTMLDivTests.html:testAlterOriginalHTML" time="0.001" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitRestoredHTMLDivTests.html:testOriginalHTMLPresent1" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitSetUpTearDownTests.html:testEmpty3" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitSetUpTearDownTests.html:testTearDown" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitSetUpTearDownTests.html:testEmpty2" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitSetUpTearDownTests.html:testSetUp" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitSetUpTearDownTests.html:testEmpty1" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestManagerTests.html:testDetermineBaseUrl" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestManagerTests.html:testGetSubmitUrl_WhenSubmitResultsIsUrl" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestManagerTests.html:testGetSubmitUrl_WhenSubmitResultsTrue" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestManagerTests.html:testGetSubmitUrl_WhenResultUrlNotSpecifiedAndFileProtocol" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestManagerTests.html:testGetSubmitUrl_WhenResultUrlNotSpecified" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestManagerTests.html:testGetFunctionNamesFromRuntimeObject" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestManagerTests.html:testIsTestFunction" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestManagerTests.html:testGetTestFunctionNamesFromFrameProperties" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestManagerTests.html:testGetTestFunctionNamesUsingPlainTextSearch" time="0.001" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitParamsTests.html:testConstructTestParams_BooleansHaveNoValueWritten" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitParamsTests.html:testConstructTestParams_ValuesAreEscaped" time="0.001" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitParamsTests.html:testConstructTestParams_IgnoreCertainKeys" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitParamsTests.html:testQueryStringParsing_MagicHexEscapedCharactersAreIgnored" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitParamsTests.html:testQueryStringParsing_HexEscapedCharactersAreUnescaped" time="0.053" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitParamsTests.html:testQueryStringParsing_InitialPathIsRemoved" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitParamsTests.html:testQueryStringParsing_CaseIsIgnored" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitParamsTests.html:testQueryStringParsing_Basic" time="0.001" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestSetUpPages.html:testDocumentGetElementsByTagName" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestSuiteTests.html:testSpecifyTestsInConstructor" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestSuiteTests.html:testSuiteWithSubsuites" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitTestSuiteTests.html:testSimpleSuite" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitUtilityTests.html:testTrueTypeOf" time="0.001" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitUtilityTests.html:testPushAndPop" time="0.001" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitUtilityTests.html:testIsBlank" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitUtilityTests.html:testTrim" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/TestPageTest.html:testGetStatus" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/UiManagerTest.html:testProblemDetailMessageFor_WithAssertionFailure" time="0.001" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/UiManagerTest.html:testProblemDetailMessageFor_WithException" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitMockTimeoutTest.html:testInterval" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitMockTimeoutTest.html:testBigTickWithOutOfOrderTimeouts" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitMockTimeoutTest.html:testComplicatedBigTickWithOutOfOrderTimeouts" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitMockTimeoutTest.html:testTimeoutWithDelayedRecursion" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitMockTimeoutTest.html:testTimeoutWithRecursionWithinTick" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitMockTimeoutTest.html:testTimeoutWithRecursion" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitMockTimeoutTest.html:testTimeoutWithinTimeout" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitMockTimeoutTest.html:testTimeoutsCanBeCleared" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitMockTimeoutTest.html:testClockOutOfOrder" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitMockTimeoutTest.html:testSimpleClock" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAjaxTest.html:testSendRequest" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAjaxTest.html:testSetRequestHeader" time="0.0" />
+
+            <testCaseResult type="SUCCESS" name="http://127.0.0.1:8081/jsunit/tests/jsUnitAjaxTest.html:testOpenRequest" time="0.0" />
+         </testCaseResults>
+      </browserResult>
+   </testRunResult>
+</distributedTestRunResult>
+
