@@ -10,7 +10,7 @@
 
     <artifactId>jsunit</artifactId>
     <packaging>hpi</packaging>
-    <version>1.4.2</version>
+    <version>1.4.3-SNAPSHOT</version>
     <name>Jenkins JSUnit plugin</name>
     <url>http://wiki.jenkins-ci.org/display/JENKINS/JSUnit+Plugin</url>
 
