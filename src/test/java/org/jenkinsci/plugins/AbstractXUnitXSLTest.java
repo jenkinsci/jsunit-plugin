@@ -5,7 +5,6 @@ import com.thalesgroup.dtkit.metrics.model.InputMetricFactory;
 import com.thalesgroup.dtkit.util.validator.ValidationError;
 import org.custommonkey.xmlunit.Diff;
 import org.custommonkey.xmlunit.XMLUnit;
-import org.jenkinsci.plugins.XSLUtil;
 import org.junit.Assert;
 import org.junit.Before;
 
@@ -29,8 +28,8 @@ public class AbstractXUnitXSLTest {
 
         //The input file must be valid
         boolean result = inputMetric.validateInputFile(inputXMLFile);
-        for (ValidationError error: inputMetric.getInputValidationErrors()){
-           System.out.println(error);
+        for (ValidationError error : inputMetric.getInputValidationErrors()) {
+            System.out.println(error);
         }
         Assert.assertTrue(result);
 

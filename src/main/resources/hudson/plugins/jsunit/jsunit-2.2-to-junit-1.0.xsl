@@ -44,6 +44,6 @@
             </xsl:otherwise>
         </xsl:choose>
     </xsl:template>
-            
+
     <xsl:template match="text()|@*"/>
 </xsl:stylesheet>
