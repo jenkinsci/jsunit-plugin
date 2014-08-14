@@ -33,7 +33,7 @@ THE SOFTWARE.
 
     <artifactId>jsunit</artifactId>
     <packaging>hpi</packaging>
-    <version>1.6</version>
+    <version>1.7-SNAPSHOT</version>
     <name>Jenkins JSUnit plugin</name>
     <url>http://wiki.jenkins-ci.org/display/JENKINS/JSUnit+Plugin</url>
 
@@ -79,7 +79,7 @@ THE SOFTWARE.
     <scm>
         <connection>scm:git:git://github.com/jenkinsci/jsunit-plugin.git</connection>
         <developerConnection>scm:git:git@github.com:jenkinsci/jsunit-plugin.git</developerConnection>
-      <tag>jsunit-1.6</tag>
+      <tag>HEAD</tag>
   </scm>
 
     <dependencies>
